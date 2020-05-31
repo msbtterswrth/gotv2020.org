@@ -7,20 +7,18 @@
         margin: 0;
     }
     .top {
-        background: $primary;
+        background: $dk-gray;
         padding: 60px 0;
         a {
-            color: $dk-gray;
+            color: $primary;
             font-weight: bold;            
             text-decoration: underline;
             &:hover, &:focus {
-                color: #fff;
+                color: #tertiary;
             }
         }
     }
     .main {
-        .content {
-            margin: 0;
-        }
+       display: none;
     }
 }
