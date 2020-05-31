@@ -1,5 +1,20 @@
 .home-wrap {
     .header {
         background: none;
+        position: absolute;
+    }
+    .hero {
+        margin: 0;
+    }
+    .prizes {
+        background: $primary;
+        padding: 60px 0;
+        a {
+            color: $tertiary;
+            &:hover, &:focus {
+                color: $dk-gray;
+                text-decoration: underline;
+            }
+        }
     }
 }
