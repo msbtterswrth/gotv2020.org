@@ -80,7 +80,6 @@ body {
     h1 {
         font-family: $font-script;
         font-size:40px;
-        font-weight: 600;
         line-height: 48px;
         margin: 0 0 35px 0;
         @include breakpoint(sm-max) {
