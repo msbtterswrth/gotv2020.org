@@ -6,15 +6,21 @@
     .hero {
         margin: 0;
     }
-    .prizes {
+    .top {
         background: $primary;
         padding: 60px 0;
         a {
-            color: $tertiary;
+            color: $dk-gray;
+            font-weight: bold;            
+            text-decoration: underline;
             &:hover, &:focus {
-                color: $dk-gray;
-                text-decoration: underline;
+                color: #fff;
             }
+        }
+    }
+    .main {
+        .content {
+            margin: 0;
         }
     }
 }
