@@ -31,6 +31,19 @@
   {{ title_prefix }}
   {{ title_suffix }}
   {% block content %}
-   {{ content }}
+    <div class="img">
+        {{ content.field_image }}
+        {% if content.field_media is not empty %}
+            <div class="video">
+                <div class="embed-responsive">
+                    {{ content.field_media }}
+                </div>
+            </div>
+        {% endif %}
+    </div>
+    <div class="blurb">
+        <h1>{{ content.field_title.0 }}</h1>
+        {{ content.field_blurb }}
+    </div>
   {% endblock %}
 </div>
