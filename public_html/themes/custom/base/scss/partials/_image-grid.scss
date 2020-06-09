@@ -1,5 +1,18 @@
 .image-grid {
     .images {
-        
+        display: flex;
+        flex-wrap: wrap;
+        article {
+            height: 350px;
+            margin: 0 1rem 1rem 0;
+            text-align: center;
+            flex: 1 0 auto; 
+            @for $i from 1 through 36 { 
+                div:nth-child(#{$i}) {
+                    $h: (random(400) + 70) + px;
+                    width: $h;
+                }
+            }
+        }
     }
 }
