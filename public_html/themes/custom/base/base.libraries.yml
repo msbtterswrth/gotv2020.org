@@ -40,6 +40,9 @@ awesome-bootstrap-checkbox:
       '//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.3.7/awesome-bootstrap-checkbox.min.css': { type: external, minified: true }
   dependencies:
     - base/bootstrap
+colcade: 
+  js:
+    'https://unpkg.com/colcade@0/colcade.js': { type: external, minified: false }
 copy-clipboard:
   js:
     '//cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js': { type: external, minified: true }

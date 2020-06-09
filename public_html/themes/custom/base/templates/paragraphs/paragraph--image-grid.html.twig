@@ -3,6 +3,11 @@
         {% if content.field_title.0 %}
             <h2>{{content.field_title}}</h2>
         {% endif %}
-        <div class="images">{{content.field_images}}</div>
+        <div class="images">
+            <div class="grid-col grid-col--1"></div>
+            <div class="grid-col grid-col--2"></div>
+            <div class="grid-col grid-col--3"></div>
+            {{content.field_images}}
+        </div>
     </div>
 {% endblock %} 

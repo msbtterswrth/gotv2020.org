@@ -21,6 +21,12 @@
         });
       });
     }
+    function colCade(context) {
+        $('.image-grid').colcade({
+          columns: '.grid-col',
+          items: 'article'
+        })
+    }
     function initExternalLinks(context) {
         $('a[href*="//"]:not([href*="' + document.location.hostname + '"])', context).attr("target", "_blank").addClass("external");
     }
@@ -111,6 +117,7 @@
                 });
                 this._isInvokedByDocumentReady = false;
             }
+            colCade(context);
             initCopy(context);
             initScrollClass(context);
             initExternalLinks(context);
