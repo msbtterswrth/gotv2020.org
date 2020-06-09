@@ -17,6 +17,7 @@ global:
     - base/copy-clipboard
     - base/enquire
     - base/knockout
+    - base/colcade
 bootstrap:
   css:
     theme:
@@ -42,7 +43,7 @@ awesome-bootstrap-checkbox:
     - base/bootstrap
 colcade: 
   js:
-    'https://unpkg.com/colcade@0/colcade.js': { type: external, minified: false }
+    '//unpkg.com/colcade@0/colcade.js': { type: external, minified: false }
 copy-clipboard:
   js:
     '//cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js': { type: external, minified: true }
