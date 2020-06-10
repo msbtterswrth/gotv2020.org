@@ -24,7 +24,7 @@
     function colCade(context) {
         $('.image-grid').colcade({
           columns: '.grid-col',
-          items: 'article'
+          items: 'img'
         })
     }
     function initExternalLinks(context) {
