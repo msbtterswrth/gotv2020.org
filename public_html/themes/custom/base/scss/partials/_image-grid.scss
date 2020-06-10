@@ -1,4 +1,11 @@
 .image-grid {
     .images {
+        .grid-col {
+            float: left;
+            width: 33.33%;
+            article {
+                margin:0 15px 15px 15px; 
+            }
+        }
     }
 }
