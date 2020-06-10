@@ -3,6 +3,12 @@
         .grid-col {
             float: left;
             width: 33.33%;
+            @include breakpoint(sm) {
+                width: 50%;
+            }
+            @include breakpoint(xs) {
+                width: 100%;
+            }
             article {
                 margin:0 15px 15px 15px; 
             }
